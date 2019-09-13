@@ -1,0 +1,6 @@
+.category_item:after{ content: ", " }
+.category_item:last-of-type:after{ content: "" }
+
+.author, .written{ color: #c33 }
+.category_item{ color: #000555 }
+.last-edited{ color: #cc0 }

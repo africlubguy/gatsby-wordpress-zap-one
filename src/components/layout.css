@@ -615,6 +615,10 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+footer{ background: rebeccapurple; color: white; margin-bottom: 0px; padding: 1.3rem 30px 15px }
+footer a{ text-decoration: none; color: #0ff }
+footer a:hover{ text-decoration: underline; }
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

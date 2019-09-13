@@ -1,0 +1,24 @@
+@media screen and (min-width: 647px){
+article{ display: flex; flex-direction: column }
+img.child{ width: 65% }
+}
+@media screen and (min-width: 904px){
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+.child{ 
+	align-self: flex-start; 
+	display: inline-block; 
+}
+img.child{
+	width: 35%;
+	margin-right: 20px;
+}
+div.child{
+	width: 65%
+}
+}
+
+.category_item:after{ content: ", " }
+.category_item:last-of-type:after{ content: "" }
